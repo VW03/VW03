@@ -3,159 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mijn Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            background-color: #f5e9ff;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: #d9c2ff;
-            padding: 2rem;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            color: #5a3e85;
-            margin-bottom: 0.5rem;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            color: #7b5ca3;
-        }
-
-        nav {
-            background-color: #fff;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        nav a {
-            margin: 0 1rem;
-            text-decoration: none;
-            color: #5a3e85;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #ff99cc;
-        }
-
-        section {
-            padding: 3rem 2rem;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        section h2 {
-            font-size: 2rem;
-            color: #5a3e85;
-            text-align: center;
-            margin-bottom: 1.5rem;
-        }
-
-        .about, .contact {
-            background-color: #fff;
-            border-radius: 15px;
-            padding: 2rem;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .projects {
-            display: grid;
-            gap: 2rem;
-        }
-
-        .project-card {
-            background-color: #fff;
-            border-radius: 15px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
-
-        .project-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .project-card h3 {
-            color: #5a3e85;
-            margin-bottom: 0.5rem;
-        }
-
-        .project-card p {
-            color: #666;
-        }
-
-        .project-card a {
-            display: inline-block;
-            margin-top: 1rem;
-            padding: 0.5rem 1rem;
-            background-color: #ff99cc;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 10px;
-            transition: background-color 0.3s;
-        }
-
-        .project-card a:hover {
-            background-color: #ff66b3;
-        }
-
-        .contact a {
-            color: #ff99cc;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .contact a:hover {
-            color: #ff66b3;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #d9c2ff;
-            color: #5a3e85;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 2rem;
-            }
-
-            section {
-                padding: 2rem 1rem;
-            }
-
-            nav a {
-                display: block;
-                margin: 0.5rem 0;
-            }
-        }
-    </style>
+    <meta name="description" content="Portfolio van Vera Wise.">
+    <title>Your Cosmic Dark Portfolio</title>
+<!--    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">-->
+    <link rel="stylesheet" href="/VW03/css/styles.css">
 </head>
 <body>
+<canvas id="starfield"></canvas>
 <header>
-    <h1>Hi, I'm VW!</h1>
-    <p>Welcome to my portfolio</p>
+    <h1>Hi, I'm [Your Name]!</h1>
+    <p>Welcome to my cosmic dark portfolio~</p>
 </header>
 
 <nav>
@@ -166,45 +23,37 @@
 
 <section id="about" class="about">
     <h2>About Me</h2>
-    <p>I'm a student IAO who loves creating fun and colorful projects! When I'm not coding, you can find me [your hobbies, e.g., drawing, baking, or playing with my cat].</p>
+    <p>I'm a [your profession, e.g., web developer/designer] exploring the universe of code! When I'm not building projects, you can find me [your hobbies, e.g., stargazing, gaming, or sketching planets].</p>
 </section>
 
 <section id="projects" class="projects">
     <h2>My Projects</h2>
     <div class="project-card">
         <h3>Project 1</h3>
-        <p>A cool project I built with [technologies, e.g., HTML, CSS, JavaScript]. It does [brief description].</p>
-        <a href="[project-link]" target="_blank">Check it out!</a>
+        <p>A stellar project I built with [technologies, e.g., HTML, CSS, JavaScript]. It does [brief description].</p>
+        <a href="[project-link]" target="_blank">Launch it!</a>
     </div>
     <div class="project-card">
         <h3>Project 2</h3>
-        <p>Another fun project using [technologies]. It’s all about [brief description].</p>
-        <a href="[project-link]" target="_blank">Check it out!</a>
+        <p>Another galactic project using [technologies]. It’s all about [brief description].</p>
+        <a href="[project-link]" target="_blank">Launch it!</a>
     </div>
     <div class="project-card">
         <h3>Project 3</h3>
         <p>My favorite project so far, made with [technologies]. It features [brief description].</p>
-        <a href="[project-link]" target="_blank">Check it out!</a>
+        <a href="[project-link]" target="_blank">Launch it!</a>
     </div>
 </section>
 
 <section id="contact" class="contact">
     <h2>Get in Touch</h2>
-    <p>Want to chat? Reach me at <a href="mailto:[your-email]">[your-email]</a> or find me on <a href="[your-github-link]" target="_blank">GitHub</a>!</p>
+    <p>Want to explore the cosmos together? Reach me at <a href="mailto:[your-email]">[your-email]</a> or find me on <a href="[your-github-link]" target="_blank">GitHub</a>!</p>
 </section>
 
 <footer>
-    <p>Made with 💖 by [Your Name] &copy; 2025</p>
+    <p>Gemaakt met 💖 door <a href="https://www.linkedin.com/in/vera-wise" class="linkedin cursor-pointer" target="_blank">Vera Wise</a> &copy; <span id="footer-year"></span></p>
 </footer>
 
-<script>
-    document.querySelectorAll('nav a').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const section = document.querySelector(this.getAttribute('href'));
-            section.scrollIntoView({ behavior: 'smooth' });
-        });
-    });
-</script>
+<script src="/VW03/js/main.js"></script>
 </body>
 </html>
