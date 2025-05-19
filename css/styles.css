@@ -1,0 +1,12 @@
+:root {
+    --primary-bg: #f5e9ff;
+    --text-primary: #333;
+    --header-footer-bg: #d9c2ff;
+    --accent-dark: #5a3e85;
+    --accent-muted: #7b5ca3;
+    --card-bg: #fff;
+    --primary-action: #ff99cc;
+    --primary-action-hover: #ff66b3;
+    --text-secondary: #666;
+    --shadow-subtle: rgba(0, 0, 0, 0.1);
+}
