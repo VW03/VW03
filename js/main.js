@@ -15,6 +15,37 @@ function setTheCurrentYear() {
 
 setTheCurrentYear();
 
+// Language translations
+
+// Language cycling
+const languages = ['en', 'nl', 'fr'];
+let currentLangIndex = 0;
+
+function changeLanguage() {
+    currentLangIndex = (currentLangIndex + 1) % languages.length;
+
+
+    const lang = languages[currentLangIndex];
+    localStorage.setItem('language', lang);
+    document.getElementById('language').textContent = lang.toUpperCase();
+    document.querySelectorAll('[data-translate]').forEach(element => {
+        const key = element.getAttribute('data-translate');
+        element.innerHTML = translations[lang][key];
+    });
+}
+
+// Load saved language or default to English
+document.addEventListener('DOMContentLoaded', () => {
+    const savedLang = localStorage.getItem('language') || 'en';
+    currentLangIndex = languages.indexOf(savedLang);
+    document.getElementById('language').textContent = savedLang.toUpperCase();
+    document.querySelectorAll('[data-translate]').forEach(element => {
+        const key = element.getAttribute('data-translate');
+        element.innerHTML = translations[savedLang][key];
+    });
+});
+
+
 // Starfield animation
 const canvas = document.getElementById('starfield');
 const ctx = canvas.getContext('2d');
@@ -28,7 +59,7 @@ function resizeCanvas() {
 
 function initStars() {
     stars = [];
-    const numStars = Math.floor(window.innerWidth * 0.15); // Increased density
+    const numStars = Math.floor(window.innerWidth * 0.15);
     for (let i = 0; i < numStars; i++) {
         stars.push({
             x: Math.random() * canvas.width,

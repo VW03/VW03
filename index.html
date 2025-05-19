@@ -10,50 +10,51 @@
 </head>
 <body>
 <canvas id="starfield"></canvas>
-<header>
-    <h1>Hi, I'm [Your Name]!</h1>
-    <p>Welcome to my cosmic dark portfolio~</p>
-</header>
-
 <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <div class="nav-links">
+        <a href="#about" data-translate="nav-about">About</a>
+        <a href="#projects" data-translate="nav-projects">Projects</a>
+        <a href="#contact" data-translate="nav-contact">Contact</a>
+    </div>
+    <div class="lang-switcher">
+        <button id="language" onclick="changeLanguage()">EN</button>
+    </div>
 </nav>
 
 <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>I'm a [your profession, e.g., web developer/designer] exploring the universe of code! When I'm not building projects, you can find me [your hobbies, e.g., stargazing, gaming, or sketching planets].</p>
+    <h2 data-translate="about-title">About Me</h2>
+    <p data-translate="about-text">Bachelor's degree in Applied Computer Science, specializing in Application Development at KdG. Since I was a child, I've always had a penchant for art. I'm therefore interested in various artistic disciplines, ranging from drawing to photography to website design.</p>
 </section>
 
 <section id="projects" class="projects">
-    <h2>My Projects</h2>
+    <h2 data-translate="projects-title">My Projects</h2>
     <div class="project-card">
-        <h3>Project 1</h3>
-        <p>A stellar project I built with [technologies, e.g., HTML, CSS, JavaScript]. It does [brief description].</p>
-        <a href="[project-link]" target="_blank">Launch it!</a>
+        <h3 data-translate="project1-title">Project 1</h3>
+        <p data-translate="project1-desc">A stellar project I built with [technologies, e.g., HTML, CSS, JavaScript]. It does [brief description].</p>
+        <a href="[project-link]" target="_blank" data-translate="project-link">Launch it!</a>
     </div>
     <div class="project-card">
-        <h3>Project 2</h3>
-        <p>Another galactic project using [technologies]. It’s all about [brief description].</p>
-        <a href="[project-link]" target="_blank">Launch it!</a>
+        <h3 data-translate="project2-title">Project 2</h3>
+        <p data-translate="project2-desc">Another galactic project using [technologies]. It’s all about [brief description].</p>
+        <a href="[project-link]" target="_blank" data-translate="project-link">Launch it!</a>
     </div>
     <div class="project-card">
-        <h3>Project 3</h3>
-        <p>My favorite project so far, made with [technologies]. It features [brief description].</p>
-        <a href="[project-link]" target="_blank">Launch it!</a>
+        <h3 data-translate="project3-title">Project 3</h3>
+        <p data-translate="project3-desc">My favorite project so far, made with [technologies]. It features [brief description].</p>
+        <a href="[project-link]" target="_blank" data-translate="project-link">Launch it!</a>
     </div>
 </section>
 
 <section id="contact" class="contact">
-    <h2>Get in Touch</h2>
-    <p>Want to explore the cosmos together? Reach me at <a href="mailto:[your-email]">[your-email]</a> or find me on <a href="[your-github-link]" target="_blank">GitHub</a>!</p>
+    <h2 data-translate="contact-title">Get in Touch</h2>
+    <p data-translate="contact-text">Want to explore the cosmos together? Reach me at <a href="mailto:[your-email]">[your-email]</a> or find me on <a href="[your-github-link]" target="_blank">GitHub</a>!</p>
 </section>
 
 <footer>
     <p>Gemaakt met 💖 door <a href="https://www.linkedin.com/in/vera-wise" class="linkedin cursor-pointer" target="_blank">Vera Wise</a> &copy; <span id="footer-year"></span></p>
 </footer>
 
+<script src="/VW03/js/i18n.js"></script>
 <script src="/VW03/js/main.js"></script>
 </body>
 </html>
