@@ -18,7 +18,7 @@ setTheCurrentYear();
 // Language translations
 
 // Language cycling
-const languages = ['en', 'nl', 'fr'];
+const languages = ['nl', 'fr', 'en'];
 let currentLangIndex = 0;
 
 function changeLanguage() {

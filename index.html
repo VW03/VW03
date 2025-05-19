@@ -13,11 +13,12 @@
 <nav>
     <div class="nav-links">
         <a href="#about" data-translate="nav-about">About</a>
+        <a href="#skills" data-translate="nav-skills">Skills</a>
         <a href="#projects" data-translate="nav-projects">Projects</a>
         <a href="#contact" data-translate="nav-contact">Contact</a>
     </div>
     <div class="lang-switcher">
-        <button id="language" onclick="changeLanguage()">EN</button>
+        <button id="language" onclick="changeLanguage()" title="nl/fr/en">NL</button>
     </div>
 </nav>
 
@@ -26,22 +27,55 @@
     <p data-translate="about-text">Bachelor's degree in Applied Computer Science, specializing in Application Development at KdG. Since I was a child, I've always had a penchant for art. I'm therefore interested in various artistic disciplines, ranging from drawing to photography to website design.</p>
 </section>
 
+<section id="skills" class="skills">
+    <h2 data-translate="skills-title"></h2>
+    <div class="skills-list">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">C++/C#/C</span>
+        <span class="skill-tag">.NET</span>
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">Android/Kotlin</span>
+        <span class="skill-tag">HTML/CSS/Bootstrap</span>
+        <span class="skill-tag">JavaScript/TypeScript</span>
+        <span class="skill-tag">React/Angular</span>
+        <span class="skill-tag">Tests & Git</span>
+        <span class="skill-tag">SAPUI5</span>
+        <span class="skill-tag">CAP</span>
+    </div>
+</section>
+
 <section id="projects" class="projects">
     <h2 data-translate="projects-title">My Projects</h2>
     <div class="project-card">
-        <h3 data-translate="project1-title">Project 1</h3>
-        <p data-translate="project1-desc">A stellar project I built with [technologies, e.g., HTML, CSS, JavaScript]. It does [brief description].</p>
-        <a href="[project-link]" target="_blank" data-translate="project-link">Launch it!</a>
+        <h3 data-translate="project1-title">INFO SUPPORT - Software Engineer</h3>
+        <p data-translate="project1-desc">
+            July 2024 - August 2024
+            I developed an application for the charity "Au-delà Des Nuages." It was my first experience outside of a school assignment, where we worked directly with a client. It taught me how to work together in a professional environment and gave me the opportunity to apply Scrum techniques.</p>
+        <a href="https://www.bovendewolken.be/" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M10.59 13.41a1 1 0 0 0 1.41 1.41l4.59-4.59a1 1 0 0 0-1.41-1.41l-4.59 4.59zM17 3h4a1 1 0 0 1 1 1v4a1 1 0 0 1-2 0V6.41l-6.29 6.3a1 1 0 0 1-1.42-1.42l6.3-6.29H17a1 1 0 1 1 0-2z"/>
+            <path d="M19 13a1 1 0 0 1 1 1v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5a1 1 0 0 1 0 2H6v13h13v-5a1 1 0 0 1 1-1z"/>
+        </svg></a>
     </div>
     <div class="project-card">
-        <h3 data-translate="project2-title">Project 2</h3>
+        <h3 data-translate="project2-title">Project - The Lab K10S</h3>
         <p data-translate="project2-desc">Another galactic project using [technologies]. It’s all about [brief description].</p>
-        <a href="[project-link]" target="_blank" data-translate="project-link">Launch it!</a>
+        <a class="project-link-icon" href=https://github.com/EliasDeHondt/K10s" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M10.59 13.41a1 1 0 0 0 1.41 1.41l4.59-4.59a1 1 0 0 0-1.41-1.41l-4.59 4.59zM17 3h4a1 1 0 0 1 1 1v4a1 1 0 0 1-2 0V6.41l-6.29 6.3a1 1 0 0 1-1.42-1.42l6.3-6.29H17a1 1 0 1 1 0-2z"/>
+                <path d="M19 13a1 1 0 0 1 1 1v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5a1 1 0 0 1 0 2H6v13h13v-5a1 1 0 0 1 1-1z"/>
+            </svg>
+        </a>
     </div>
     <div class="project-card">
         <h3 data-translate="project3-title">Project 3</h3>
         <p data-translate="project3-desc">My favorite project so far, made with [technologies]. It features [brief description].</p>
-        <a href="[project-link]" target="_blank" data-translate="project-link">Launch it!</a>
+        <a class="project-link-icon" href="https://www.bovendewolken.be/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M10.59 13.41a1 1 0 0 0 1.41 1.41l4.59-4.59a1 1 0 0 0-1.41-1.41l-4.59 4.59zM17 3h4a1 1 0 0 1 1 1v4a1 1 0 0 1-2 0V6.41l-6.29 6.3a1 1 0 0 1-1.42-1.42l6.3-6.29H17a1 1 0 1 1 0-2z"/>
+                <path d="M19 13a1 1 0 0 1 1 1v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5a1 1 0 0 1 0 2H6v13h13v-5a1 1 0 0 1 1-1z"/>
+            </svg>
+        </a>
     </div>
 </section>
 
