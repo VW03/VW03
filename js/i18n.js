@@ -1,48 +1,53 @@
 const translations = {
     en: {
-        'header-title': "Hi, I'm [Your Name]!",
-        'header-subtitle': "Welcome to my portfolio.",
-        'nav-about': "About",
+        'nav-about': "About Me",
         'nav-projects': "Projects",
         'nav-contact': "Contact",
         'about-title': "About Me",
-        'about-text': "I'm a [your profession, e.g., web developer/designer] with a passion for building impactful digital solutions. When I'm not working on projects, I enjoy [your hobbies, e.g., reading, gaming, or drawing].",
+        'about-text': "I am a student pursuing an Application Development degree at KdG, with a passion for debugging. I've always had an artistic side since childhood. My hobbies span various artistic disciplines, from drawing and photography to web design. This makes statistics and AI also very interesting to me, which is why I plan to further study them at the UA. I am also very aware of cybersecurity.",
         'projects-title': "My Projects",
         'project1-title': "INFO SUPPORT - Software Engineer",
-        'project1-desc': "July 2024 - August 2024\n" +
-            "            I developed an application for the charity \"Au-delà Des Nuages.\" It was my first experience outside of a school assignment, where we worked directly with a client. It taught me how to work together in a professional environment and gave me the opportunity to apply Scrum techniques.",
-        'project2-title': "Project 2",
-        'project2-desc': "Created with [technologies], this project is centered around [brief description].",
-        'project3-title': "Project 3",
-        'project3-desc': "One of my favorite projects, developed with [technologies]. It features [brief description].",
-        'project-link': "View Project",
+        'project1-desc': "I developed an application for a good cause called 'Above The Clouds.' This was done in a team of four, where we built an app from scratch. It was my first experience working outside of school assignments, directly with a client. This taught me to work in a professional environment and gave me the opportunity to apply Scrum techniques.",
+        'project2-title': "Open Source Final Project - The Lab: K10S",
+        'project2-desc': "This was my final project for my Bachelor's degree in Applied Informatics. The project is open-source and available on GitLab, developed by a small team of three. My responsibility primarily involved the frontend portion. This was an extremely interesting project where I also learned a lot about Kubernetes itself.",
+        'project3-title': "CSS Preprocessor - My Own Scripting Language",
+        'project3-desc': "One of my favorite projects, developed with ANTLR and JavaScript. Here, I built a 'preprocessor scripting language' inspired by Sass. The language is called 'VeWiCSS' with the extension .vwcss. It has its own syntax and is completely described with an EBNF grammar. It includes for- and while loops, if-else statements, and more! This project gave me deep insights into how a compiler works as I had to write one!",
         'contact-title': "Contact",
-        'contact-text': "Feel free to reach out at <a href='mailto:[your-email]'>[your-email]</a> or visit my <a href='[your-github-link]' target='_blank'>GitHub</a>.",
-        'footer': "Made by [Your Name] © 2025",
+        'contact-text': "Feel free to contact me via <a href='mailto:wise.vera@protonmail.com'>wise.vera@protonmail.com</a> or call me at <a href='tel:+32 494 54 65 77' target='_blank'>+32 494 54 65 77</a>.",
+        'footer': "Made with 💖 by",
         'nav-skills': "Skills",
-        'skills-title': "My Skills",
+        'skills-title': "Programming Languages",
+        'lang-title': "Languages"
     },
     nl: {
-        'header-title': "Hoi, ik ben [Your Name]!",
-        'header-subtitle': "Welkom bij mijn portfolio.",
         'nav-about': "Over mij",
         'nav-projects': "Projecten",
         'nav-contact': "Contact",
         'about-title': "Over mij",
-        'about-text': "Ik ben een [your profession] met een passie voor het bouwen van digitale oplossingen. In mijn vrije tijd houd ik van [your hobbies].",
+        'about-text': "Ik ben een afstuderende student Applicatie Ontwikkeling op KdG met een passie voor debugging. Van jongs af aan had ik ook altijd een\n" +
+            "artistieke aanleg. Mijn hobbies\n" +
+            "liggen dan ook in diverse artistieke\n" +
+            "disciplines, variërend van tekenen\n" +
+            "en fotografie tot webdesign. Hierdoor vindt ik statistiek en AI ook heel interessant, dus ik ga dat verder studeren aan de UA. Ik ben me ook heel bewust van cybersec",
         'projects-title': "Mijn Projecten",
         'project1-title': "INFO SUPPORT - Software Engineer",
-        'project1-desc': "Een project dat ik heb gebouwd met [technologies]. Het richt zich op [brief description].",
-        'project2-title': "Project 2",
-        'project2-desc': "Dit project is gemaakt met [technologies] en draait om [brief description].",
-        'project3-title': "Project 3",
-        'project3-desc': "Een van mijn favoriete projecten, ontwikkeld met [technologies]. Het bevat [brief description].",
-        'project-link': "Bekijk project",
+        'project1-desc': "Ik had een applicatie ontwikkeld voor het goed doel\n" +
+            "'Boven De Wolken'. Dit was in een team van vier, waar\n" +
+            "we vanaf nul een applicatie begonnen te bouwen.Dit\n" +
+            "was mijn eerste ervaring buiten een schoolopdracht,\n" +
+            "waarbij we direct met een klant werkten. Dit leerde\n" +
+            "me samenwerken in een professionele omgeving en gaf\n" +
+            "me de kans om Scrum-technieken toe te passen.",
+        'project2-title': "Open Source Eindproject - The Lab: K10S",
+        'project2-desc': "Dit was mijn eindwerk voor mijn Bachelor in Toegepaste Informatica. Het project is open-source en staat op gitlab, het werd gemaakt in een klein team van 3. En mijn verantwoordelijkheid viel het meest op het frontend gedeelte. Dit was een heel interessant project waar ik ook veel heb bijgeleerd over Kubernetes zelf.",
+        'project3-title': "CSS Preprocessor - mijn eigen scripting taal",
+        'project3-desc': "Een van mijn favoriete projecten, ontwikkeld met ANTLR en JavaScript. Hier heb ik een “preprocessor scripting language” naar analogie met Sass gebouwd. De taal heet 'VeWiCSS' en heeft als extensie .vwcss. De taal heeft zijn eigen syntax en is compleet met EBNF-beschrijving grammatica beschrreven. Er zitten for- en while loops, if-else, en meer bij! Dit project heeft me vooral viel diepgang gegeven in hou een compiler werkt, want ik moets er een schrijven!",
         'contact-title': "Contact",
-        'contact-text': "Neem gerust contact met me op via <a href='mailto:[your-email]'>[your-email]</a> of bezoek mijn <a href='[your-github-link]' target='_blank'>GitHub</a>.",
-        'footer': "Gemaakt door [Your Name] © 2025",
+        'contact-text': "Neem gerust contact met me op via <a href='mailto:wise.vera@protonmail.com'>wise.vera@protonmail.com</a> of bel me op <a href='tel:+32 494 54 65 77' target='_blank'>+32 494 54 65 77</a>.",
+        'footer': "Gemaakt met 💖 door",
         'nav-skills': "Vaardigheden",
-        'skills-title': "Mijn Vaardigheden",
+        'skills-title': "Programmeertalen",
+        'lang-title': "Talen"
     },
     fr: {
         'header-title': "Bonjour, je suis [Your Name] !",
@@ -59,11 +64,13 @@ const translations = {
         'project2-desc': "Développé avec [technologies], ce projet porte sur [brief description].",
         'project3-title': "Projet 3",
         'project3-desc': "L’un de mes projets préférés, créé avec [technologies]. Il inclut [brief description].",
-        'project-link': "Voir le projet",
         'contact-title': "Contact",
         'contact-text': "N'hésitez pas à me contacter à <a href='mailto:[your-email]'>[your-email]</a> ou consultez mon <a href='[your-github-link]' target='_blank'>GitHub</a>.",
         'footer': "Réalisé par [Your Name] © 2025",
         'nav-skills': "Compétences",
         'skills-title': "Mes Compétences",
+        'lang-title': "Talen"
     }
 };
+
+
