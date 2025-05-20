@@ -13,7 +13,7 @@ const translations = {
         'lang-title': "Languages",
         'contact-title': "Contact",
         'contact-text': "Feel free to reach out to me via <a href='mailto:wise.vera@protonmail.com'>wise.vera@protonmail.com</a> or call me at <a href='tel:+32 494 54 65 77' target='_blank'>+32 494 54 65 77</a>.",
-        'footer': "Made with 💖 by me"
+        'footer': "Made with 💖 by"
     },
     nl: {
         'about-title': "Over mij",
@@ -29,7 +29,7 @@ const translations = {
         'lang-title': "Talen",
         'contact-title': "Contact",
         'contact-text': "Neem gerust contact met me op via <a href='mailto:wise.vera@protonmail.com'>wise.vera@protonmail.com</a> of bel me op <a href='tel:+32 494 54 65 77' target='_blank'>+32 494 54 65 77</a>.",
-        'footer': "Gemaakt met 💖 door mij"
+        'footer': "Gemaakt met 💖 door"
     },
     fr: {
         'about-title': "À mon sujet",
@@ -45,7 +45,7 @@ const translations = {
         'lang-title': "Langues",
         'contact-title': "Contact",
         'contact-text': "N’hésitez pas à me contacter via <a href='mailto:wise.vera@protonmail.com'>wise.vera@protonmail.com</a> ou par téléphone au <a href='tel:+32 494 54 65 77' target='_blank'>+32 494 54 65 77</a>.",
-        'footer': "Réalisé avec 💖 par moi"
+        'footer': "Réalisé avec 💖 par"
     }
 };
 
