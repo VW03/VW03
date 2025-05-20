@@ -1,75 +1,51 @@
 const translations = {
     en: {
-        'nav-about': "About Me",
-        'nav-projects': "Projects",
-        'nav-contact': "Contact",
         'about-title': "About Me",
-        'about-text': "I am a student pursuing an Application Development degree at KdG, with a passion for debugging. I've always had an artistic side since childhood. My hobbies span various artistic disciplines, from drawing and photography to web design. This makes statistics and AI also very interesting to me, which is why I plan to further study them at the UA. I am also very aware of cybersecurity.",
+        'about-text': "I am a graduating student in Application and Cloud Development at Karel de Grote University of Applied Sciences (KdG) with a passion for debugging and technology. From a young age, I’ve had a strong artistic inclination, expressed through hobbies like drawing, photography, and web design. I’m also fascinated by statistics and artificial intelligence, and I plan to further explore these fields at the University of Antwerp (UA). I’m highly aware of cybersecurity and continuously deepen my knowledge in this area.",
         'projects-title': "My Projects",
-        'project1-title': "INFO SUPPORT - Software Engineer",
-        'project1-desc': "I developed an application for a good cause called 'Above The Clouds.' This was done in a team of four, where we built an app from scratch. It was my first experience working outside of school assignments, directly with a client. This taught me to work in a professional environment and gave me the opportunity to apply Scrum techniques.",
+        'project1-title': "Info Support - Software Engineer",
+        'project1-desc': "For the charity ‘Boven De Wolken,’ I developed an application from scratch in a team of four. This was my first professional experience outside of school assignments, working directly with a client. The project taught me how to collaborate in a professional environment and allowed me to apply Scrum methodologies.",
         'project2-title': "Open Source Final Project - The Lab: K10S",
-        'project2-desc': "This was my final project for my Bachelor's degree in Applied Informatics. The project is open-source and available on GitLab, developed by a small team of three. My responsibility primarily involved the frontend portion. This was an extremely interesting project where I also learned a lot about Kubernetes itself.",
-        'project3-title': "CSS Preprocessor - My Own Scripting Language",
-        'project3-desc': "One of my favorite projects, developed with ANTLR and JavaScript. Here, I built a 'preprocessor scripting language' inspired by Sass. The language is called 'VeWiCSS' with the extension .vwcss. It has its own syntax and is completely described with an EBNF grammar. It includes for- and while loops, if-else statements, and more! This project gave me deep insights into how a compiler works as I had to write one!",
-        'contact-title': "Contact",
-        'contact-text': "Feel free to contact me via <a href='mailto:wise.vera@protonmail.com'>wise.vera@protonmail.com</a> or call me at <a href='tel:+32 494 54 65 77' target='_blank'>+32 494 54 65 77</a>.",
-        'footer': "Made with 💖 by",
-        'nav-skills': "Skills",
+        'project2-desc': "My bachelor’s thesis for Applied Computer Science was an open-source project, available on GitLab, developed in a team of three. My primary focus was on the frontend. This project was highly educational, particularly in deepening my understanding of Kubernetes.",
+        'project3-title': "VeWiCSS - Custom CSS Preprocessor",
+        'project3-desc': "One of my favorite projects is ‘VeWiCSS,’ a preprocessor scripting language inspired by Sass, built with ANTLR and JavaScript. This language, with the .vwcss extension, has its own syntax and a complete EBNF grammar description. It includes features like for and while loops, if-else structures, and more. This project gave me deep insights into how compilers work, as I had to develop one myself.",
         'skills-title': "Programming Languages",
-        'lang-title': "Languages"
+        'lang-title': "Languages",
+        'contact-title': "Contact",
+        'contact-text': "Feel free to reach out to me via <a href='mailto:wise.vera@protonmail.com'>wise.vera@protonmail.com</a> or call me at <a href='tel:+32 494 54 65 77' target='_blank'>+32 494 54 65 77</a>.",
+        'footer': "Made with 💖 by me"
     },
     nl: {
-        'nav-about': "Over mij",
-        'nav-projects': "Projecten",
-        'nav-contact': "Contact",
         'about-title': "Over mij",
-        'about-text': "Ik ben een afstuderende student Applicatie Ontwikkeling op KdG met een passie voor debugging. Van jongs af aan had ik ook altijd een\n" +
-            "artistieke aanleg. Mijn hobbies\n" +
-            "liggen dan ook in diverse artistieke\n" +
-            "disciplines, variërend van tekenen\n" +
-            "en fotografie tot webdesign. Hierdoor vindt ik statistiek en AI ook heel interessant, dus ik ga dat verder studeren aan de UA. Ik ben me ook heel bewust van cybersec",
+        'about-text': "Ik ben een afstuderende student Applicatie- en Cloudontwikkeling aan de Karel de Grote Hogeschool (KdG) met een passie voor debugging en technologie. Van jongs af aan heb ik een sterke affiniteit met kunst, wat zich uit in mijn hobby’s zoals tekenen, fotografie en webdesign. Daarnaast ben ik gefascineerd door statistiek en kunstmatige intelligentie, en ik plan deze interesse verder te ontwikkelen aan de Universiteit Antwerpen (UA). Ik heb ook een sterke focus op cybersecurity en blijf me hierin verder verdiepen.",
         'projects-title': "Mijn Projecten",
-        'project1-title': "INFO SUPPORT - Software Engineer",
-        'project1-desc': "Ik had een applicatie ontwikkeld voor het goed doel\n" +
-            "'Boven De Wolken'. Dit was in een team van vier, waar\n" +
-            "we vanaf nul een applicatie begonnen te bouwen.Dit\n" +
-            "was mijn eerste ervaring buiten een schoolopdracht,\n" +
-            "waarbij we direct met een klant werkten. Dit leerde\n" +
-            "me samenwerken in een professionele omgeving en gaf\n" +
-            "me de kans om Scrum-technieken toe te passen.",
+        'project1-title': "Info Support - Software Engineer",
+        'project1-desc': "Voor het goede doel ‘Boven De Wolken’ ontwikkelde ik samen met een team van vier een applicatie vanaf de grond op. Dit was mijn eerste professionele ervaring buiten schoolopdrachten, waarbij we direct met een klant samenwerkten. Dit project leerde me samenwerken in een professionele omgeving en bood de kans om Scrum-methodologieën toe te passen.",
         'project2-title': "Open Source Eindproject - The Lab: K10S",
-        'project2-desc': "Dit was mijn eindwerk voor mijn Bachelor in Toegepaste Informatica. Het project is open-source en staat op gitlab, het werd gemaakt in een klein team van 3. En mijn verantwoordelijkheid viel het meest op het frontend gedeelte. Dit was een heel interessant project waar ik ook veel heb bijgeleerd over Kubernetes zelf.",
-        'project3-title': "CSS Preprocessor - mijn eigen scripting taal",
-        'project3-desc': "Een van mijn favoriete projecten, ontwikkeld met ANTLR en JavaScript. Hier heb ik een “preprocessor scripting language” naar analogie met Sass gebouwd. De taal heet 'VeWiCSS' en heeft als extensie .vwcss. De taal heeft zijn eigen syntax en is compleet met EBNF-beschrijving grammatica beschrreven. Er zitten for- en while loops, if-else, en meer bij! Dit project heeft me vooral viel diepgang gegeven in hou een compiler werkt, want ik moets er een schrijven!",
+        'project2-desc': "Mijn bachelorproef voor Toegepaste Informatica was een open-sourceproject, beschikbaar op GitLab, ontwikkeld in een team van drie. Mijn focus lag voornamelijk op de frontend. Dit project was bijzonder leerzaam, vooral op het gebied van Kubernetes, waar ik uitgebreide kennis over opdeed.",
+        'project3-title': "VeWiCSS - Eigen CSS Preprocessor",
+        'project3-desc': "Een van mijn favoriete projecten is ‘VeWiCSS’, een preprocessor-scripttaal geïnspireerd op Sass, ontwikkeld met ANTLR en JavaScript. Deze taal, met de extensie .vwcss, heeft een eigen syntax en een volledige EBNF-grammaticabeschrijving. Functionaliteiten zoals for- en while-lussen, if-else-structuren en meer zijn inbegrepen. Dit project gaf me diepgaand inzicht in de werking van compilers, omdat ik er zelf een moest ontwikkelen.",
+        'skills-title': "Programmeertalen",
+        'lang-title': "Talen",
         'contact-title': "Contact",
         'contact-text': "Neem gerust contact met me op via <a href='mailto:wise.vera@protonmail.com'>wise.vera@protonmail.com</a> of bel me op <a href='tel:+32 494 54 65 77' target='_blank'>+32 494 54 65 77</a>.",
-        'footer': "Gemaakt met 💖 door",
-        'nav-skills': "Vaardigheden",
-        'skills-title': "Programmeertalen",
-        'lang-title': "Talen"
+        'footer': "Gemaakt met 💖 door mij"
     },
     fr: {
-        'header-title': "Bonjour, je suis [Your Name] !",
-        'header-subtitle': "Bienvenue sur mon portfolio.",
-        'nav-about': "À propos",
-        'nav-projects': "Projets",
-        'nav-contact': "Contact",
-        'about-title': "À propos de moi",
-        'about-text': "Je suis [your profession] passionné par la création de solutions numériques. En dehors du travail, j’aime [your hobbies].",
+        'about-title': "À mon sujet",
+        'about-text': "Je suis une étudiante en fin de cursus en développement d’applications et cloud à la Karel de Grote Hogeschool (KdG), passionnée par le débogage et les technologies. Depuis mon plus jeune âge, j’ai une forte inclination artistique, exprimée à travers mes hobbies comme le dessin, la photographie et le design web. Je suis également fascinée par les statistiques et l’intelligence artificielle, et je prévois d’approfondir ces domaines à l’Université d’Anvers (UA). Je suis très sensibilisée à la cybersécurité et je continue à développer mes connaissances dans ce domaine.",
         'projects-title': "Mes Projets",
-        'project1-title': "INFO SUPPORT - Software Engineer",
-        'project1-desc': "Un projet réalisé avec [technologies]. Il traite de [brief description].",
-        'project2-title': "Projet 2",
-        'project2-desc': "Développé avec [technologies], ce projet porte sur [brief description].",
-        'project3-title': "Projet 3",
-        'project3-desc': "L’un de mes projets préférés, créé avec [technologies]. Il inclut [brief description].",
+        'project1-title': "Info Support - Ingénieure Logiciel",
+        'project1-desc': "PJ'avais développé une application pour l'organisation caritative « Au-delà Des Nuages ». C'était ma première expérience en dehors d'un travail scolaire, où nous avons travaillé directement avec un client. Cela m'a appris à travailler ensemble dans un environnement professionnel et m'a donné l'occasion d'appliquer les techniques Scrum.",
+        'project2-title': "Projet Open Source de Fin d’Études - The Lab : K10S",
+        'project2-desc': "Mon travail de fin d’études pour mon bachelor en informatique appliquée était un projet open source, disponible sur GitLab, réalisé en équipe de trois. Je me suis principalement concentrée sur le frontend. Ce projet a été très formateur, notamment pour approfondir mes connaissances sur Kubernetes.",
+        'project3-title': "VeWiCSS - Mon Propre Préprocesseur CSS",
+        'project3-desc': "L’un de mes projets préférés est ‘VeWiCSS’, un langage de script de préprocesseur inspiré de Sass, développé avec ANTLR et JavaScript. Ce langage, avec l’extension .vwcss, possède sa propre syntaxe et une description complète de sa grammaire en EBNF. Il inclut des fonctionnalités telles que des boucles for et while, des structures if-else, et bien plus. Ce projet m’a offert une compréhension approfondie du fonctionnement des compilateurs, car j’ai dû en créer un moi-même.",
+        'skills-title': "Langages de Programmation",
+        'lang-title': "Langues",
         'contact-title': "Contact",
-        'contact-text': "N'hésitez pas à me contacter à <a href='mailto:[your-email]'>[your-email]</a> ou consultez mon <a href='[your-github-link]' target='_blank'>GitHub</a>.",
-        'footer': "Réalisé par [Your Name] © 2025",
-        'nav-skills': "Compétences",
-        'skills-title': "Mes Compétences",
-        'lang-title': "Talen"
+        'contact-text': "N’hésitez pas à me contacter via <a href='mailto:wise.vera@protonmail.com'>wise.vera@protonmail.com</a> ou par téléphone au <a href='tel:+32 494 54 65 77' target='_blank'>+32 494 54 65 77</a>.",
+        'footer': "Réalisé avec 💖 par moi"
     }
 };
 
