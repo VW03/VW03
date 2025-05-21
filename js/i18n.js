@@ -1,7 +1,7 @@
 const translations = {
     en: {
         'about-title': "About Me",
-        'about-text': "I am a graduating student in Application and Cloud Development at Karel de Grote University of Applied Sciences (KdG) with a passion for debugging and technology. From a young age, I’ve had a strong artistic inclination, expressed through hobbies like drawing, photography, and web design. I’m also fascinated by statistics and artificial intelligence, and I plan to further explore these fields at the University of Antwerp (UA). I’m highly aware of cybersecurity and continuously deepen my knowledge in this area.",
+        'about-text': "I am a graduating student in Application Development at Karel de Grote University of Applied Sciences (KdG) with a passion for debugging and technology. From a young age, I’ve had a strong artistic inclination, expressed through hobbies like drawing, photography, and web design. I’m also fascinated by statistics and artificial intelligence, and I plan to further explore these fields at the University of Antwerp (UA). I’m highly aware of cybersecurity and continuously deepen my knowledge in this area.",
         'projects-title': "My Projects",
         'project1-title': "Info Support - Software Engineer",
         'project1-desc': "For the charity ‘Boven De Wolken,’ I developed an application from scratch in a team of four. This was my first professional experience outside of school assignments, working directly with a client. The project taught me how to collaborate in a professional environment and allowed me to apply Scrum methodologies.",
@@ -17,7 +17,7 @@ const translations = {
     },
     nl: {
         'about-title': "Over mij",
-        'about-text': "Ik ben een afstuderende student Applicatie- en Cloudontwikkeling aan de Karel de Grote Hogeschool (KdG) met een passie voor debugging en technologie. Van jongs af aan heb ik een sterke affiniteit met kunst, wat zich uit in mijn hobby’s zoals tekenen, fotografie en webdesign. Daarnaast ben ik gefascineerd door statistiek en kunstmatige intelligentie, en ik plan deze interesse verder te ontwikkelen aan de Universiteit Antwerpen (UA). Ik heb ook een sterke focus op cybersecurity en blijf me hierin verder verdiepen.",
+        'about-text': "Ik ben een afstuderende student Applicatieontwikkeling aan de Karel de Grote Hogeschool (KdG) met een passie voor debugging en technologie. Van jongs af aan heb ik een sterke affiniteit met kunst, wat zich uit in mijn hobby’s zoals tekenen, fotografie en webdesign. Daarnaast ben ik gefascineerd door statistiek en kunstmatige intelligentie, en ik plan deze interesse verder te ontwikkelen aan de Universiteit Antwerpen (UA). Ik heb ook een sterke focus op cybersecurity en blijf me hierin verder verdiepen.",
         'projects-title': "Mijn Projecten",
         'project1-title': "Info Support - Software Engineer",
         'project1-desc': "Voor het goede doel ‘Boven De Wolken’ ontwikkelde ik samen met een team van vier een applicatie vanaf de grond op. Dit was mijn eerste professionele ervaring buiten schoolopdrachten, waarbij we direct met een klant samenwerkten. Dit project leerde me samenwerken in een professionele omgeving en bood de kans om Scrum-methodologieën toe te passen.",
@@ -33,7 +33,7 @@ const translations = {
     },
     fr: {
         'about-title': "À mon sujet",
-        'about-text': "Je suis une étudiante en fin de cursus en développement d’applications et cloud à la Karel de Grote Hogeschool (KdG), passionnée par le débogage et les technologies. Depuis mon plus jeune âge, j’ai une forte inclination artistique, exprimée à travers mes hobbies comme le dessin, la photographie et le design web. Je suis également fascinée par les statistiques et l’intelligence artificielle, et je prévois d’approfondir ces domaines à l’Université d’Anvers (UA). Je suis très sensibilisée à la cybersécurité et je continue à développer mes connaissances dans ce domaine.",
+        'about-text': "Je suis une étudiante en fin de cursus en développement d’applications à la Karel de Grote Hogeschool (KdG), passionnée par le débogage et les technologies. Depuis mon plus jeune âge, j’ai une forte inclination artistique, exprimée à travers mes hobbies comme le dessin, la photographie et le design web. Je suis également fascinée par les statistiques et l’intelligence artificielle, et je prévois d’approfondir ces domaines à l’Université d’Anvers (UA). Je suis très sensibilisée à la cybersécurité et je continue à développer mes connaissances dans ce domaine.",
         'projects-title': "Mes Projets",
         'project1-title': "Info Support - Ingénieure Logiciel",
         'project1-desc': "PJ'avais développé une application pour l'organisation caritative « Au-delà Des Nuages ». C'était ma première expérience en dehors d'un travail scolaire, où nous avons travaillé directement avec un client. Cela m'a appris à travailler ensemble dans un environnement professionnel et m'a donné l'occasion d'appliquer les techniques Scrum.",
