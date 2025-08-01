@@ -12,6 +12,11 @@
       margin: 0;
       padding: 0;
     }
+    .leaflet-control-layers {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 10px;
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
@@ -30,32 +35,48 @@
     { name: "Basiliek, Edegem", lat: 51.15609948917338, lng: 4.450760951054967 }
   ];
 
-  churches.forEach(church => {
-    L.marker([church.lat, church.lng], {
-      title: church.name
-    })
-            .addTo(map)
-            .bindTooltip(church.name, {
-              permanent: true,
-              direction: 'top',
-              offset: [-15, -10]
-            });
-  });
-
   const radii = [2000, 1000, 500]; // in meters
+  const radiusLabels = ['2km', '1km', '500m'];
   const colors = ['#ffca1f', '#14aa9f', '#7aa228'];
 
-  churches.forEach(church => {
-    radii.forEach((radius, index) => {
-      L.circle([church.lat, church.lng], {
-        color: colors[index],
-        fillColor: colors[index],
-        fillOpacity: 0.09,
-        radius: radius
-      }).addTo(map).bindPopup(`${church.name} - ${radius/1000}km radius`);
-    });
+  const churchLayers = {};
+  const radiusLayers = {};
+
+  radiusLabels.forEach((label) => {
+    radiusLayers[label] = L.layerGroup();
   });
 
+  churches.forEach(church => {
+    churchLayers[church.name] = L.layerGroup();
+    const marker = L.marker([church.lat, church.lng], {
+      title: church.name
+    }).bindTooltip(church.name, {
+      permanent: true,
+      direction: 'top',
+      offset: [-15, -10]
+    });
+    churchLayers[church.name].addLayer(marker);
+
+    radii.forEach((radius, index) => {
+      const circle = L.circle([church.lat, church.lng], {
+        color: colors[index],
+        fillColor: colors[index],
+        fillOpacity: 0.07,
+        radius: radius
+      });
+      churchLayers[church.name].addLayer(circle);
+      radiusLayers[radiusLabels[index]].addLayer(circle);
+    });
+    churchLayers[church.name].addTo(map);
+  });
+
+  Object.values(radiusLayers).forEach(layer => layer.addTo(map));
+  const overlayMaps = {
+    ...Object.fromEntries(churches.map(church => [church.name, churchLayers[church.name]])),
+    ...Object.fromEntries(radiusLabels.map(label => [label, radiusLayers[label]]))
+  };
+
+  L.control.layers({}, overlayMaps, { collapsed: false }).addTo(map);
   const group = new L.featureGroup(churches.map(church => L.marker([church.lat, church.lng])));
   map.fitBounds(group.getBounds().pad(0.5));
 </script>
