@@ -43,14 +43,14 @@
   });
 
   const radii = [2000, 1000, 500]; // in meters
-  const colors = ['#d359de', '#5959de', '#59de99'];
+  const colors = ['#ffca1f', '#14aa9f', '#7aa228'];
 
   churches.forEach(church => {
     radii.forEach((radius, index) => {
       L.circle([church.lat, church.lng], {
         color: colors[index],
         fillColor: colors[index],
-        fillOpacity: 0,
+        fillOpacity: 0.09,
         radius: radius
       }).addTo(map).bindPopup(`${church.name} - ${radius/1000}km radius`);
     });
