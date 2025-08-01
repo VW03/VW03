@@ -6,7 +6,12 @@
   <title>Edegem + Mortsel Kerken Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
-    #map { height: 600px; width: 100%; }
+    html, body, #map {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
   </style>
 </head>
 <body>
@@ -21,24 +26,31 @@
   const churches = [
     { name: "Sint-Antonius, Edegem", lat: 51.156456489741075, lng: 4.444100984485163 },
     { name: "Heilig Kruis, Mortsel", lat: 51.17058907848282, lng: 4.44675619668919 },
-    { name: "Sint-Benedictus, Mortsel", lat: 51.16541167388042, lng: 4.463005699179102 }
+    { name: "Sint-Benedictus, Mortsel", lat: 51.16541167388042, lng: 4.463005699179102 },
+    { name: "Basiliek, Edegem", lat: 51.15609948917338, lng: 4.450760951054967 }
   ];
 
   churches.forEach(church => {
-    L.marker([church.lat, church.lng])
+    L.marker([church.lat, church.lng], {
+      title: church.name
+    })
             .addTo(map)
-            .bindPopup(church.name);
+            .bindTooltip(church.name, {
+              permanent: true,
+              direction: 'top',
+              offset: [-15, -10]
+            });
   });
 
-  const radii = [1000, 500]; // in meters
-  const colors = ['#0000ff', '#00ff00'];
+  const radii = [2000, 1000, 500]; // in meters
+  const colors = ['#d359de', '#5959de', '#59de99'];
 
   churches.forEach(church => {
     radii.forEach((radius, index) => {
       L.circle([church.lat, church.lng], {
         color: colors[index],
         fillColor: colors[index],
-        fillOpacity: 0.1,
+        fillOpacity: 0,
         radius: radius
       }).addTo(map).bindPopup(`${church.name} - ${radius/1000}km radius`);
     });
