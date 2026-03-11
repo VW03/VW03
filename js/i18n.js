@@ -28,7 +28,7 @@ const translations = {
         'project3-title': "VeWiCSS - Eigen CSS Preprocessor",
         'project3-desc': "Een van mijn favoriete projecten is ‘VeWiCSS’, een preprocessor-scripttaal geïnspireerd op Sass, ontwikkeld met ANTLR en JavaScript. Deze taal, met de extensie .vwcss, heeft een eigen syntax en een volledige EBNF-grammaticabeschrijving. Functionaliteiten zoals for- en while-lussen, if-else-structuren en meer zijn inbegrepen. Dit project gaf me diepgaand inzicht in de werking van compilers, omdat ik er zelf een moest ontwikkelen.",
         'project4-title': "3D L-systemen - Bomen maken met wiskunde",
-        'project4-desc': "Mijn meest recente project is het maken van mijn eigen datastructuur in C++. Een L-systeem dat bomen en andere leuke recursieve patronen in 3D genereert! Net als de beroemde fractalen en de Mandelbrotverzameling."
+        'project4-desc': "Mijn meest recente project is het maken van mijn eigen datastructuur in C++. Een L-systeem dat bomen en andere leuke recursieve patronen in 3D genereert! Net als de beroemde fractalen en de Mandelbrotverzameling.",
         'skills-title': "Programmeertalen",
         'lang-title': "Talen",
         'contact-title': "Contact",
@@ -46,7 +46,7 @@ const translations = {
         'project3-title': "VeWiCSS - Mon Propre Préprocesseur CSS",
         'project3-desc': "L’un de mes projets préférés est ‘VeWiCSS’, un langage de script de préprocesseur inspiré de Sass, développé avec ANTLR et JavaScript. Ce langage, avec l’extension .vwcss, possède sa propre syntaxe et une description complète de sa grammaire en EBNF. Il inclut des fonctionnalités telles que des boucles for et while, des structures if-else, et bien plus. Ce projet m’a offert une compréhension approfondie du fonctionnement des compilateurs, car j’ai dû en créer un moi-même.",
         'project4-title': "Systèmes L 3D - Création d'arbres à partir de mathématiques",
-        'project4-desc': "Mon projet le plus récent consiste à créer ma propre structure de données en C++. Un système L qui génère des arbres et d'autres motifs récursifs intéressants en 3D ! Tout comme les célèbres fractales et l'ensemble de Mandelbrot."
+        'project4-desc': "Mon projet le plus récent consiste à créer ma propre structure de données en C++. Un système L qui génère des arbres et d'autres motifs récursifs intéressants en 3D ! Tout comme les célèbres fractales et l'ensemble de Mandelbrot.",
         'skills-title': "Langages de Programmation",
         'lang-title': "Langues",
         'contact-title': "Contact",
