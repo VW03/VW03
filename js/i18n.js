@@ -9,6 +9,8 @@ const translations = {
         'project2-desc': "My bachelor’s thesis for Applied Computer Science was an open-source project, available on GitLab, developed in a team of three. My primary focus was on the frontend. This project was highly educational, particularly in deepening my understanding of Kubernetes.",
         'project3-title': "VeWiCSS - Custom CSS Preprocessor",
         'project3-desc': "One of my favorite projects is ‘VeWiCSS,’ a preprocessor scripting language inspired by Sass, built with ANTLR and JavaScript. This language, with the .vwcss extension, has its own syntax and a complete EBNF grammar description. It includes features like for and while loops, if-else structures, and more. This project gave me deep insights into how compilers work, as I had to develop one myself.",
+        'project4-title': "3D L-systems - Making trees from math",
+        'project4-desc': "My most recent project is making my own data structure in C++. An L-system that generates trees and other fun recursive patterns in 3D! Just like the famous fractals and Mandelbrot set.",
         'skills-title': "Programming Languages",
         'lang-title': "Languages",
         'contact-title': "Contact",
@@ -25,6 +27,8 @@ const translations = {
         'project2-desc': "Mijn bachelorproef voor Toegepaste Informatica was een open-sourceproject, beschikbaar op GitLab, ontwikkeld in een team van drie. Mijn focus lag voornamelijk op de frontend. Dit project was bijzonder leerzaam, vooral op het gebied van Kubernetes, waar ik uitgebreide kennis over opdeed.",
         'project3-title': "VeWiCSS - Eigen CSS Preprocessor",
         'project3-desc': "Een van mijn favoriete projecten is ‘VeWiCSS’, een preprocessor-scripttaal geïnspireerd op Sass, ontwikkeld met ANTLR en JavaScript. Deze taal, met de extensie .vwcss, heeft een eigen syntax en een volledige EBNF-grammaticabeschrijving. Functionaliteiten zoals for- en while-lussen, if-else-structuren en meer zijn inbegrepen. Dit project gaf me diepgaand inzicht in de werking van compilers, omdat ik er zelf een moest ontwikkelen.",
+        'project4-title': "3D L-systemen - Bomen maken met wiskunde",
+        'project4-desc': "Mijn meest recente project is het maken van mijn eigen datastructuur in C++. Een L-systeem dat bomen en andere leuke recursieve patronen in 3D genereert! Net als de beroemde fractalen en de Mandelbrotverzameling."
         'skills-title': "Programmeertalen",
         'lang-title': "Talen",
         'contact-title': "Contact",
@@ -41,6 +45,8 @@ const translations = {
         'project2-desc': "Mon travail de fin d’études pour mon bachelor en informatique appliquée était un projet open source, disponible sur GitLab, réalisé en équipe de trois. Je me suis principalement concentrée sur le frontend. Ce projet a été très formateur, notamment pour approfondir mes connaissances sur Kubernetes.",
         'project3-title': "VeWiCSS - Mon Propre Préprocesseur CSS",
         'project3-desc': "L’un de mes projets préférés est ‘VeWiCSS’, un langage de script de préprocesseur inspiré de Sass, développé avec ANTLR et JavaScript. Ce langage, avec l’extension .vwcss, possède sa propre syntaxe et une description complète de sa grammaire en EBNF. Il inclut des fonctionnalités telles que des boucles for et while, des structures if-else, et bien plus. Ce projet m’a offert une compréhension approfondie du fonctionnement des compilateurs, car j’ai dû en créer un moi-même.",
+        'project4-title': "Systèmes L 3D - Création d'arbres à partir de mathématiques",
+        'project4-desc': "Mon projet le plus récent consiste à créer ma propre structure de données en C++. Un système L qui génère des arbres et d'autres motifs récursifs intéressants en 3D ! Tout comme les célèbres fractales et l'ensemble de Mandelbrot."
         'skills-title': "Langages de Programmation",
         'lang-title': "Langues",
         'contact-title': "Contact",

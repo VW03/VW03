@@ -2,6 +2,7 @@
 
 
 ## 🌸 About Me
-- 🎓 Student Applied Computer Science - Application Development at KdG  
+- 🎓 Student Electronics and IT at University of Antwerp
+- 🎓 Bachelor in Applied Computer Science - Application Development at KdG  
 - 📫 How to reach me: **wise.vera@protonmail.com**  
 - ✨ Fun fact: I love photography!
